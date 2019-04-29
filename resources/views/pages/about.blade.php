@@ -5,11 +5,11 @@
 <main role="main" class="container">
 
       <div class="center">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <h1>Jeżeli chodzi o żubry to opiekuje sie nimi moja matka</h1>
+        <p class="lead">Ona ma tam dziuple</p>
       </div>
     
 </main>
 @endsection
 
-@extends('layouts.footer')
+
