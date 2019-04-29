@@ -20,5 +20,9 @@
       </li>
     </ul>
     
+    <ul class = "nav navbar-nav navbar-right">
+      <li><a href="/posts/create"> Dodaj ogloszenie</a></li>
+      </ul>
+
   </div>
 </nav>
