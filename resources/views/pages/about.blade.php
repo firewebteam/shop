@@ -7,7 +7,7 @@
    
         
           
-      <div class="form-group text-center " style = 'margin-top: 100px'>
+      <div class="form-group text-center ">
         <h1> Zajmujemy się wykonywaniem biżuterii całkowicie własnoręcznie! </h1>
         <img src = "https://www.leron.cz/sk/img/handmade.png">
       <br><br><br> <br><br><br>

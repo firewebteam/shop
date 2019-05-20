@@ -9,10 +9,12 @@
     </div>
 
     <hr>
-    <small>written on {{$post->created_at}}</small>
+    <small>Dodane: {{$post->created_at}}</small>
     <hr>
-    
-    @if(!Auth::guest())
+
+    <a href = "/posts/{{$post->id}}/buy" class ="btn btn-default"> Kup </a>
+    {{-- @if(!Auth::guest()) --}}
+    @if(Auth::guest('admin'))
         <a href = "/posts/{{$post->id}}/edit" class ="btn btn-default"> Edit </a>
 
         {!!Form::open(['action' => ['PostsController@destroy',$post->id], 'method'=>'POST', 'class'=> 'float-right'])!!}

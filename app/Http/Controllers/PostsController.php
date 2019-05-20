@@ -173,4 +173,10 @@ class PostsController extends Controller
         $post->delete();
         return redirect('/posts')->with('success', 'Post Removed');
     }
+
+    public function buy($id){
+        $post = Post::find($id);
+        return view('posts.buy')->with('post', $post);  
+
+    }
 }

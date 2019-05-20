@@ -9,7 +9,28 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
- 
+    <style>
+    body {
+       margin:0;
+       padding:0;
+       height:100%;
+       width: 100%;
+    }
+    
+
+    #con {
+       min-height:100%;
+       position:relative;
+    }
+
+    #footer {
+       
+       position:absolute;
+       bottom:0;
+       width:100%;
+       height: 0px;
+    }
+    </style>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,11 +40,19 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-        @include('inc.navbar')
-        <div class="container">
-            
-            @yield('content')
-        </main>
+    <div id="con">
+            @include('inc.navbar')
+
+            <div class="col-md-8 offset-sm-2" style="padding-top:50px; padding-bottom:60px">
+                @yield('content')
+            </div>
+
+        <div id="footer"> 
+        @include('inc.footer')
+        </div>
+    </div>
+
+
 
        <!-- Scripts -->
    <script src="{{asset('js/app.js') }}"></script>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-      <div class = 'center' style="padding-top: 100px">
+      <div class = 'center'>
       
       
             <!--Section: Contact v.2-->
@@ -34,7 +34,7 @@
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
+                                    <label for="email" class="">Twój mail</label>
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -47,7 +47,7 @@
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
                                     <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
+                                    <label for="subject" class="">Temat</label>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
         
                                 <div class="md-form">
                                     <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
+                                    <label for="message">Wiadomość</label>
                                 </div>
         
                             </div>
@@ -70,8 +70,8 @@
         
                     </form>
         
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    <div class="text-center text-md-right">
+                        <a class="btn btn-primary" style="width:120px" onclick="document.getElementById('contact-form').submit();">Wyślij</a>
                     </div>
                     <div class="status"></div>
                 </div>
@@ -81,15 +81,15 @@
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>San Francisco, CA 94126, USA</p>
+                            <p>Jan Kowalski, Kraków </p>
                         </li>
         
                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                            <p>+ 01 234 567 89</p>
+                            <p> (+48) 123 456 789</p>
                         </li>
         
                         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p>contact@mdbootstrap.com</p>
+                            <p>Janrobi@privet.ru</p>
                         </li>
                     </ul>
                 </div>

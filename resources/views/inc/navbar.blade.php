@@ -14,7 +14,7 @@
 
               <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
-                        <a class="nav-link" href="/"> Sklep <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/"> Testowa strona <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item active">
                         <a class="nav-link" href="/contact"> Kontakt <span class="sr-only">(current)</span></a>
@@ -23,7 +23,7 @@
                         <a class="nav-link" href="/about"> O nas </a>
                       </li>
                       <li class="nav-item active">
-                          <a class="nav-link" href="/posts"> Blog </a>
+                          <a class="nav-link" href="/posts"> Sklep </a>
                       </li>
                     </ul>
 
@@ -32,11 +32,11 @@
                   <!-- Authentication Links -->
                   @guest
                       <li class="nav-item">
-                          <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                          <a class="nav-link" href="{{ route('login') }}">{{ __('Zaloguj') }}</a>
                       </li>
                       @if (Route::has('register'))
                           <li class="nav-item">
-                              <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                              <a class="nav-link" href="{{ route('register') }}">{{ __('Zarejestruj') }}</a>
                           </li>
                       @endif
                   @else

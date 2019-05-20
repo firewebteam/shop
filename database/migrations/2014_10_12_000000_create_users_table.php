@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+            $table->boolean('admin')->default(0);
         });
     }
 
@@ -32,5 +33,9 @@ class CreateUsersTable extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
+        Schema::table('users', function($table) {
+            $table->dropColumn('paid');
+        });
+
     }
 }
