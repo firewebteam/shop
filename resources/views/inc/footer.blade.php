@@ -1,4 +1,4 @@
-<footer class="pt-4 my-md-5 pt-md-5 border-top bg-dark page-footer" style="text-align: center; width: 100%;">
+<footer class="pt-4 my-md-5 pt-md-5 bg-dark" style="text-align: center; width: 100%;">
         <div class="row">
           <div class="col-4">
             <div class="row">
@@ -28,7 +28,7 @@
           <div class="col-4">
             <h4>O twórcach</h4>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="/about">O nas</a></li>
+              <li><a class="text-muted" href="/creators">O nas</a></li>
             </ul>
         </div>
     </div>

@@ -11,24 +11,24 @@
 
     <style>
     body {
-       margin:0;
-       padding:0;
-       height:100%;
-       width: 100%;
+        margin:0;
+        padding:0;
+        height:90%;
+        width: 100%;
     }
     
 
     #con {
-       min-height:100%;
-       position:relative;
+        min-height:100%;
+        position:relative;
     }
 
     #footer {
-       
        position:absolute;
        bottom:0;
        width:100%;
        height: 0px;
+       padding: 0;
     }
     </style>
 
