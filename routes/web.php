@@ -13,13 +13,17 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
-Route::get('/contact', 'PagesController@contact');
+//Route::get('/sendemail', 'PagesController@contact');
 Route::get('/creators', 'PagesController@creators');
+
 
 Route::resource('posts', 'PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+
+Route::get('/sendemail', 'SendEmailController@index');
+Route::post('/sendemail/send', 'SendEmailController@send');
 
 Auth::routes();
 

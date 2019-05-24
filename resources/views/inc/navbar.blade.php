@@ -13,9 +13,7 @@
               </ul>
 
               <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="/"> Testowa strona <span class="sr-only">(current)</span></a>
-                      </li>
+                      
                       <li class="nav-item active">
                         <a class="nav-link" href="/contact"> Kontakt <span class="sr-only">(current)</span></a>
                       </li>

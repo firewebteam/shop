@@ -177,6 +177,5 @@ class PostsController extends Controller
     public function buy($id){
         $post = Post::find($id);
         return view('posts.buy')->with('post', $post);  
-
     }
 }

@@ -16,7 +16,7 @@
                         <h6>Dodano {{$post->created_at}}</h6>
                         <h3>Cena: <b>{{$post->cena}}<b> zł</h3>
                         <a href="/posts/{{$post->id}}/buy"  class='btn btn-primary'>Kup</a>
-                        <h3><a href ="/posts/{{$post->id}}">{{$post->title}}</a></h3>
+                        <br><br>
                         
                     </div>
                 <br>
