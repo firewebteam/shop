@@ -15,6 +15,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 //Route::get('/sendemail', 'PagesController@contact');
 Route::get('/creators', 'PagesController@creators');
+Route::get('/regulamin', 'PagesController@regulamin');
 
 
 Route::resource('posts', 'PostsController');

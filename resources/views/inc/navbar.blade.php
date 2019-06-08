@@ -23,6 +23,9 @@
                       <li class="nav-item active">
                           <a class="nav-link" href="/posts"> Sklep </a>
                       </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="/regulamin"> Regulamin </a>
+                    </li>
                     </ul>
 
               <!-- Right Side Of Navbar -->
